@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MicroFLF';
+    src: url('fonts/MicroFLF.eot');
+    src: url('fonts/MicroFLF.eot') format('embedded-opentype'),
+         url('fonts/MicroFLF.woff2') format('woff2'),
+         url('fonts/MicroFLF.woff') format('woff'),
+         url('fonts/MicroFLF.ttf') format('truetype'),
+         url('fonts/MicroFLF.svg#MicroFLF') format('svg');
+}

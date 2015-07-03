@@ -1,0 +1,37 @@
+The turn of a player begins by moving his figurine after he rolled a six-sided dice. It is not allowed to move diagonally. After the move has been executed, one of the following things will happen:
+
+• The player reaches an event field. The mobile device will display the event and it will be executed immediately.
+
+• The player reaches a field that is occupied by a ghost. If the player’s “Ghost
+Snapper” has enough battery left, the player can catch the ghost and collect
+points. If the battery is too low or the player does not want to catch the ghost, the ghost will attack the player and move his figurine to a random unoccupied field.
+
+• The player reaches an empty field. In this case nothing happens.
+
+After 10 rounds (in which every player made a move) the evil ghost will appear for the first time. He will change his position regularly Now the players need to plan strategically. Do they want to catch the ghost to end the game or could it be better to delay the ending of the game and use this time to collect more points by catching other ghosts? 
+
+To be able to catch the evil ghost at all, each player needs enough battery left for their “Ghost Snapper” as well as three amulets. The game will decide randomly which amulets are required and notify the players at the beginning of the game, so everyone knows which amulets have to be collected. One randomly selected amulet can be found in every single room. So besides catching ghosts every player needs to wander around the rooms of the haunted mansion to collect the amulets.
+
+If a ghost has been caught or a player stepped on an event field, it is “used” and the game logic will automatically place a new ghost or event field randomly on an unoccupied field on the game board.
+
+Formulas:
+• The evil ghost appears after 10 * {number of players} moves
+• 30 small ghosts and 20 action fields are placed on the board at the beginning of
+the game
+• At the beginning each “Ghost Snapper” is charged by 60 (out of 100) energy
+points
+• The “Ghost Snapper” will recharge by 20 points at the beginning of a player’s turn
+• Using the “Ghost Snapper” uses 1 battery point per second
+• Catching a small ghost costs 5 energy points
+• Catching the evil ghost costs 25 energy points
+
+Event cards:
+• Battery: your ghost snapper recharges by 10 points (5x)
+• Mega-Battery: your ghost snapper recharges by 20 points (5x)
+• Bypass: your ghost snapper loses 10 points (5x)
+• Bypass: your ghost snapper loses 20 points (5x)
+• Spook: switch places with the figurine from the player to your right (3x)
+• Spook: switch places with the figurine from the player to your left (3x)
+• Scanner-upgrade: three amulets are uncovered (6x)
+• Secret passage: you can role your dice again (4x)
+• Basement: you got lost and have take a pause (4x)
